@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21415492-b508-497c-96db-9f366f4fec22" name="Changes" comment="terceiro commit">
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/CategoryGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/CategorySearchQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/pagination/Pagination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/NullaryUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/UnitUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/DefaultCreateCategoryUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryUseCaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/application/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/UseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/UseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/UseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/UseCaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
         <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -89,31 +96,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.CategoryTest.givenAValidInactiveCategory_whenCallActivate_thenReturnCategoryActivated">
-    <configuration name="CategoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":domain:test" />
-            <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.domain.category.CategoryTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.CreateCategoryUseCaseTest.givenAValidCommand_whenCallsCreateCategoryId">
     <configuration name="CategoryTest.givenAValidCategory_whenCallUpdateToInactive_thenReturnCategoryUpdated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -210,20 +193,44 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="CreateCategoryUseCaseTest.givenAValidCommand_whenCallsCreateCategoryId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":application:test" />
+            <option value="--tests" />
+            <option value="&quot;com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseTest.givenAValidCommand_whenCallsCreateCategoryId&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Gradle.CreateCategoryUseCaseTest.givenAValidCommand_whenCallsCreateCategoryId" />
       <item itemvalue="Gradle.CategoryTest.givenAValidCategory_whenCallUpdateToInactive_thenReturnCategoryUpdated" />
       <item itemvalue="Gradle.CategoryTest.givenAValidCategory_whenCallUpdateWithInvalidParam_thenReturnCategoryUpdated" />
       <item itemvalue="Gradle.CategoryTest.givenAValidCategory_whenCallUpdate_thenReturnCategoryUpdated" />
       <item itemvalue="Gradle.CategoryTest.givenAValidInactiveCategory_whenCallActivate_thenReturnCategoryActivated" />
-      <item itemvalue="Gradle.CategoryTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CreateCategoryUseCaseTest.givenAValidCommand_whenCallsCreateCategoryId" />
         <item itemvalue="Gradle.CategoryTest.givenAValidInactiveCategory_whenCallActivate_thenReturnCategoryActivated" />
         <item itemvalue="Gradle.CategoryTest.givenAValidCategory_whenCallUpdateWithInvalidParam_thenReturnCategoryUpdated" />
         <item itemvalue="Gradle.CategoryTest.givenAValidCategory_whenCallUpdateToInactive_thenReturnCategoryUpdated" />
         <item itemvalue="Gradle.CategoryTest.givenAValidCategory_whenCallUpdate_thenReturnCategoryUpdated" />
-        <item itemvalue="Gradle.CategoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -267,11 +274,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/fullcycle/admin/catalogo/Main.java</url>
           <line>4</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/UseCase.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
