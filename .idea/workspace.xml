@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21415492-b508-497c-96db-9f366f4fec22" name="Changes" comment="terceiro commit">
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/NullaryUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/UnitUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/DefaultCreateCategoryUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryUseCaseTest.java" afterDir="false" />
+    <list default="true" id="21415492-b508-497c-96db-9f366f4fec22" name="Changes" comment="quarto commit">
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/validation/handler/Notification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/application/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/UseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/UseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/UseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/UseCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/DefaultCreateCategoryUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/DefaultCreateCategoryUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryUseCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/validation/ValidationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/validation/ValidationHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +92,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.CreateCategoryUseCaseTest.givenAValidCommand_whenCallsCreateCategoryId">
-    <configuration name="CategoryTest.givenAValidCategory_whenCallUpdateToInactive_thenReturnCategoryUpdated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CreateCategoryUseCaseTest">
+    <configuration name="CreateCategoryUseCaseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -108,9 +104,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":domain:test" />
+            <option value=":application:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.domain.category.CategoryTest.givenAValidCategory_whenCallUpdateToInactive_thenReturnCategoryUpdated&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -121,7 +117,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CategoryTest.givenAValidCategory_whenCallUpdateWithInvalidParam_thenReturnCategoryUpdated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CreateCategoryUseCaseTest.givenAInvalidName_whenCallsCreateCategory_thenSouldReturnDomainException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -132,9 +128,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":domain:test" />
+            <option value=":application:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.domain.category.CategoryTest.givenAValidCategory_whenCallUpdateWithInvalidParam_thenReturnCategoryUpdated&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseTest.givenAInvalidName_whenCallsCreateCategory_thenSouldReturnDomainException&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -145,7 +141,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CategoryTest.givenAValidCategory_whenCallUpdate_thenReturnCategoryUpdated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CreateCategoryUseCaseTest.givenAValidCommandWithInactiveCategory_whenCallsCreateCategory_shouldReturnInactiveCategoryId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -156,33 +152,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":domain:test" />
+            <option value=":application:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.domain.category.CategoryTest.givenAValidCategory_whenCallUpdate_thenReturnCategoryUpdated&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="CategoryTest.givenAValidInactiveCategory_whenCallActivate_thenReturnCategoryActivated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":domain:test" />
-            <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.domain.category.CategoryTest.givenAValidInactiveCategory_whenCallActivate_thenReturnCategoryActivated&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseTest.givenAValidCommandWithInactiveCategory_whenCallsCreateCategory_shouldReturnInactiveCategoryId&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -217,20 +189,44 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="CreateCategoryUseCaseTest.givenAValidCommand_whenGatewayThrowsRandomException_shouldReturnAException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":application:test" />
+            <option value="--tests" />
+            <option value="&quot;com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseTest.givenAValidCommand_whenGatewayThrowsRandomException_shouldReturnAException&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Gradle.CreateCategoryUseCaseTest" />
+      <item itemvalue="Gradle.CreateCategoryUseCaseTest.givenAInvalidName_whenCallsCreateCategory_thenSouldReturnDomainException" />
+      <item itemvalue="Gradle.CreateCategoryUseCaseTest.givenAValidCommandWithInactiveCategory_whenCallsCreateCategory_shouldReturnInactiveCategoryId" />
+      <item itemvalue="Gradle.CreateCategoryUseCaseTest.givenAValidCommand_whenGatewayThrowsRandomException_shouldReturnAException" />
       <item itemvalue="Gradle.CreateCategoryUseCaseTest.givenAValidCommand_whenCallsCreateCategoryId" />
-      <item itemvalue="Gradle.CategoryTest.givenAValidCategory_whenCallUpdateToInactive_thenReturnCategoryUpdated" />
-      <item itemvalue="Gradle.CategoryTest.givenAValidCategory_whenCallUpdateWithInvalidParam_thenReturnCategoryUpdated" />
-      <item itemvalue="Gradle.CategoryTest.givenAValidCategory_whenCallUpdate_thenReturnCategoryUpdated" />
-      <item itemvalue="Gradle.CategoryTest.givenAValidInactiveCategory_whenCallActivate_thenReturnCategoryActivated" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CreateCategoryUseCaseTest" />
+        <item itemvalue="Gradle.CreateCategoryUseCaseTest.givenAValidCommand_whenGatewayThrowsRandomException_shouldReturnAException" />
+        <item itemvalue="Gradle.CreateCategoryUseCaseTest.givenAValidCommandWithInactiveCategory_whenCallsCreateCategory_shouldReturnInactiveCategoryId" />
+        <item itemvalue="Gradle.CreateCategoryUseCaseTest.givenAInvalidName_whenCallsCreateCategory_thenSouldReturnDomainException" />
         <item itemvalue="Gradle.CreateCategoryUseCaseTest.givenAValidCommand_whenCallsCreateCategoryId" />
-        <item itemvalue="Gradle.CategoryTest.givenAValidInactiveCategory_whenCallActivate_thenReturnCategoryActivated" />
-        <item itemvalue="Gradle.CategoryTest.givenAValidCategory_whenCallUpdateWithInvalidParam_thenReturnCategoryUpdated" />
-        <item itemvalue="Gradle.CategoryTest.givenAValidCategory_whenCallUpdateToInactive_thenReturnCategoryUpdated" />
-        <item itemvalue="Gradle.CategoryTest.givenAValidCategory_whenCallUpdate_thenReturnCategoryUpdated" />
       </list>
     </recent_temporary>
   </component>
@@ -259,13 +255,22 @@
       <option name="project" value="LOCAL" />
       <updated>1710372950835</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="quarto commit">
+      <option name="closed" value="true" />
+      <created>1710802318790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710802318790</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="segundo commit" />
     <MESSAGE value="terceiro commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="terceiro commit" />
+    <MESSAGE value="quarto commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="quarto commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
