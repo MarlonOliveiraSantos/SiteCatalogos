@@ -55,7 +55,7 @@ public class CreateCategoryUseCaseTest {
     }
 
     @Test
-    public void givenAInvalidName_whenCallsCreateCategory_thenSouldReturnDomainException() {
+    public void givenAInvalidName_whenCallsCreateCategory_thenShouldReturnDomainException() {
         final String expectedName = null;
         final var expectedDescription = "A categoria mais assistida";
         final var expectedIsActive = true;
