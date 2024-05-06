@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21415492-b508-497c-96db-9f366f4fec22" name="Changes" comment="nono commit">
-      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/MySQLGatewayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGatewayTest.java" afterDir="false" />
+    <list default="true" id="21415492-b508-497c-96db-9f366f4fec22" name="Changes" comment="décimo commit">
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/persistence/CategoryRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGatewayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGatewayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +102,7 @@
       <recent name="com.fullcycle.admin.catalogo.infrastructure.category" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CategoryMySQLGatewayTest.givenAValidCategory_whenCallsCreate_shouldReturnANewCategory">
+  <component name="RunManager" selected="Gradle.CategoryMySQLGatewayTest.givenValidCategoryIdNotStored_whenCallsFindById_shouldReturnEmpty">
     <configuration name="CategoryMySQLGatewayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -129,7 +127,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CategoryMySQLGatewayTest.givenAValidCategory_whenCallsCreate_shouldReturnANewCategory" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CategoryMySQLGatewayTest.givenAPrePersistedCategoryAndValidCategoryId_whenCallsFindById_shouldReturnCategory" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -142,7 +140,7 @@
           <list>
             <option value=":infrastructure:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.category.CategoryMySQLGatewayTest.givenAValidCategory_whenCallsCreate_shouldReturnANewCategory&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.category.CategoryMySQLGatewayTest.givenAPrePersistedCategoryAndValidCategoryId_whenCallsFindById_shouldReturnCategory&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -153,7 +151,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CategoryMySQLGatewayTest.testInjectedDependencies" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CategoryMySQLGatewayTest.givenAValidCategory_whenCallsUpdate_shouldReturnCategoryUpdated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -166,7 +164,7 @@
           <list>
             <option value=":infrastructure:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.category.CategoryMySQLGatewayTest.testInjectedDependencies&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.category.CategoryMySQLGatewayTest.givenAValidCategory_whenCallsUpdate_shouldReturnCategoryUpdated&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,7 +175,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MainTest.testMain" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CategoryMySQLGatewayTest.givenAnInvalidCategoryId_whenTryToDeleteIt_shouldDeleteCategory" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -190,7 +188,7 @@
           <list>
             <option value=":infrastructure:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.MainTest.testMain&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.category.CategoryMySQLGatewayTest.givenAnInvalidCategoryId_whenTryToDeleteIt_shouldDeleteCategory&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -201,42 +199,44 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="fc3-admin-do-catalogo [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CategoryMySQLGatewayTest.givenValidCategoryIdNotStored_whenCallsFindById_shouldReturnEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value=":infrastructure:test" />
+            <option value="--tests" />
+            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.category.CategoryMySQLGatewayTest.givenValidCategoryIdNotStored_whenCallsFindById_shouldReturnEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.CategoryMySQLGatewayTest.givenAValidCategory_whenCallsCreate_shouldReturnANewCategory" />
+      <item itemvalue="Gradle.CategoryMySQLGatewayTest.givenAPrePersistedCategoryAndValidCategoryId_whenCallsFindById_shouldReturnCategory" />
+      <item itemvalue="Gradle.CategoryMySQLGatewayTest.givenValidCategoryIdNotStored_whenCallsFindById_shouldReturnEmpty" />
       <item itemvalue="Gradle.CategoryMySQLGatewayTest" />
-      <item itemvalue="Gradle.CategoryMySQLGatewayTest.testInjectedDependencies" />
-      <item itemvalue="Gradle.MainTest.testMain" />
-      <item itemvalue="Gradle.fc3-admin-do-catalogo [test]" />
+      <item itemvalue="Gradle.CategoryMySQLGatewayTest.givenAnInvalidCategoryId_whenTryToDeleteIt_shouldDeleteCategory" />
+      <item itemvalue="Gradle.CategoryMySQLGatewayTest.givenAValidCategory_whenCallsUpdate_shouldReturnCategoryUpdated" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CategoryMySQLGatewayTest.givenAValidCategory_whenCallsCreate_shouldReturnANewCategory" />
+        <item itemvalue="Gradle.CategoryMySQLGatewayTest.givenValidCategoryIdNotStored_whenCallsFindById_shouldReturnEmpty" />
+        <item itemvalue="Gradle.CategoryMySQLGatewayTest.givenAPrePersistedCategoryAndValidCategoryId_whenCallsFindById_shouldReturnCategory" />
         <item itemvalue="Gradle.CategoryMySQLGatewayTest" />
-        <item itemvalue="Gradle.CategoryMySQLGatewayTest.testInjectedDependencies" />
-        <item itemvalue="Gradle.fc3-admin-do-catalogo [test]" />
-        <item itemvalue="Gradle.MainTest.testMain" />
+        <item itemvalue="Gradle.CategoryMySQLGatewayTest.givenAnInvalidCategoryId_whenTryToDeleteIt_shouldDeleteCategory" />
+        <item itemvalue="Gradle.CategoryMySQLGatewayTest.givenAValidCategory_whenCallsUpdate_shouldReturnCategoryUpdated" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714438326449</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="décimo commit">
+      <option name="closed" value="true" />
+      <created>1714699080981</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714699080981</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -325,7 +333,8 @@
     <MESSAGE value="sétimo commit" />
     <MESSAGE value="oitavo commit" />
     <MESSAGE value="nono commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="nono commit" />
+    <MESSAGE value="décimo commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="décimo commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
