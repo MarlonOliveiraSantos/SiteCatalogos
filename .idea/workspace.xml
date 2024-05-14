@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21415492-b508-497c-96db-9f366f4fec22" name="Changes" comment="décimo primeiro commit">
-      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/configuration/usecases/CategoryUseCaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/utils/SpecificationUtils.java" afterDir="false" />
+    <list default="true" id="21415492-b508-497c-96db-9f366f4fec22" name="Changes" comment="décimo segundo commit">
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/CleanUpExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/IntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryUseCaseIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/persistence/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/persistence/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/application/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/MySQLGatewayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/MySQLGatewayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGatewayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGatewayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/persistence/CategoryRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/persistence/CategoryRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,28 +99,21 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.fullcycle.admin.catalogo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\marlo\IdeaProjects\fc3-admin-do-catalogo\infrastructure\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.fullcycle.admin.catalogo.infrastructure.category" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fullcycle.admin.catalogo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.CategoryMySQLGatewayTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fullcycle.admin.catalogo.infrastructure.Main" />
-      <module name="fc3-admin-do-catalogo.infrastructure.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fullcycle.admin.catalogo.infrastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CategoryMySQLGatewayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.fc3-admin-do-catalogo [test]">
+    <configuration name="CreateCategoryUseCaseIT.givenAInvalidName_whenCallsCreateCategory_thenShouldReturnDomainException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -131,7 +126,7 @@
           <list>
             <option value=":infrastructure:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.category.CategoryMySQLGatewayTest&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseIT.givenAInvalidName_whenCallsCreateCategory_thenShouldReturnDomainException&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -142,7 +137,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CategoryMySQLGatewayTest.givenFollowPagination_whenCallsFindAllWithPage1_shouldReturnPaginated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CreateCategoryUseCaseIT.givenAValidCommandWithInactiveCategory_whenCallsCreateCategory_shouldReturnInactiveCategoryId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -155,7 +150,7 @@
           <list>
             <option value=":infrastructure:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.category.CategoryMySQLGatewayTest.givenFollowPagination_whenCallsFindAllWithPage1_shouldReturnPaginated&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseIT.givenAValidCommandWithInactiveCategory_whenCallsCreateCategory_shouldReturnInactiveCategoryId&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -166,7 +161,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CategoryMySQLGatewayTest.givenPrePersistedCategories_whenCallsFindAll_shouldReturnPaginated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CreateCategoryUseCaseIT.givenAValidCommand_whenCallsCreateCategory_shouldReturnCategoryId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -179,7 +174,7 @@
           <list>
             <option value=":infrastructure:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.category.CategoryMySQLGatewayTest.givenPrePersistedCategories_whenCallsFindAll_shouldReturnPaginated&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseIT.givenAValidCommand_whenCallsCreateCategory_shouldReturnCategoryId&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -190,7 +185,31 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="fc3-admin-do-catalogo [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CreateCategoryUseCaseIT.givenAValidCommand_whenGatewayThrowsRandomException_shouldReturnAException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":infrastructure:test" />
+            <option value="--tests" />
+            <option value="&quot;com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseIT.givenAValidCommand_whenGatewayThrowsRandomException_shouldReturnAException&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="fc3-admin-do-catalogo [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -201,7 +220,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="dependencies" />
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -213,19 +232,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Gradle.fc3-admin-do-catalogo [dependencies]" />
-      <item itemvalue="Gradle.CategoryMySQLGatewayTest.givenFollowPagination_whenCallsFindAllWithPage1_shouldReturnPaginated" />
-      <item itemvalue="Gradle.CategoryMySQLGatewayTest.givenPrePersistedCategories_whenCallsFindAll_shouldReturnPaginated" />
-      <item itemvalue="Gradle.CategoryMySQLGatewayTest" />
+      <item itemvalue="Gradle.CreateCategoryUseCaseIT.givenAInvalidName_whenCallsCreateCategory_thenShouldReturnDomainException" />
+      <item itemvalue="Gradle.CreateCategoryUseCaseIT.givenAValidCommandWithInactiveCategory_whenCallsCreateCategory_shouldReturnInactiveCategoryId" />
+      <item itemvalue="Gradle.CreateCategoryUseCaseIT.givenAValidCommand_whenCallsCreateCategory_shouldReturnCategoryId" />
+      <item itemvalue="Gradle.CreateCategoryUseCaseIT.givenAValidCommand_whenGatewayThrowsRandomException_shouldReturnAException" />
+      <item itemvalue="Gradle.fc3-admin-do-catalogo [test]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CategoryMySQLGatewayTest" />
-        <item itemvalue="Gradle.fc3-admin-do-catalogo [dependencies]" />
-        <item itemvalue="Gradle.CategoryMySQLGatewayTest.givenPrePersistedCategories_whenCallsFindAll_shouldReturnPaginated" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Gradle.CategoryMySQLGatewayTest.givenFollowPagination_whenCallsFindAllWithPage1_shouldReturnPaginated" />
+        <item itemvalue="Gradle.fc3-admin-do-catalogo [test]" />
+        <item itemvalue="Gradle.CreateCategoryUseCaseIT.givenAValidCommand_whenGatewayThrowsRandomException_shouldReturnAException" />
+        <item itemvalue="Gradle.CreateCategoryUseCaseIT.givenAValidCommandWithInactiveCategory_whenCallsCreateCategory_shouldReturnInactiveCategoryId" />
+        <item itemvalue="Gradle.CreateCategoryUseCaseIT.givenAInvalidName_whenCallsCreateCategory_thenShouldReturnDomainException" />
+        <item itemvalue="Gradle.CreateCategoryUseCaseIT.givenAValidCommand_whenCallsCreateCategory_shouldReturnCategoryId" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715039440864</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="décimo segundo commit">
+      <option name="closed" value="true" />
+      <created>1715445707217</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715445707217</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -332,7 +359,8 @@
     <MESSAGE value="nono commit" />
     <MESSAGE value="décimo commit" />
     <MESSAGE value="décimo primeiro commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="décimo primeiro commit" />
+    <MESSAGE value="décimo segundo commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="décimo segundo commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
