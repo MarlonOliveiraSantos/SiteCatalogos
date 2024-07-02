@@ -4,22 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21415492-b508-497c-96db-9f366f4fec22" name="Changes" comment="décimo terceiro commit">
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/exceptions/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/models/CategoryApiOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/models/UpdateCategoryApiInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/presenters/CategoryApiPresenter.java" afterDir="false" />
+    <list default="true" id="21415492-b508-497c-96db-9f366f4fec22" name="Changes" comment="décimo quarto commit">
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/models/CategoryListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/configuration/json/Json.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/configuration/usecases/ObjectMapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/JacksonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/models/CategoryListResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/models/CategoryResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/models/CreateCategoryRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/models/UpdateCategoryRequestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/retrieve/get/DefaultGetCategoryByIdUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/retrieve/get/DefaultGetCategoryByIdUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/update/UpdateCategoryOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/update/UpdateCategoryOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/category/retrieve/get/GetCategoryByIdUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/category/retrieve/get/GetCategoryByIdUseCaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/Identifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/Identifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/CategoryID.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/CategoryID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/exceptions/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/exceptions/DomainException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/update/DefaultUpdateCategoryUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/update/DefaultUpdateCategoryUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/category/update/UpdateCategoryUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/category/update/UpdateCategoryUseCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/api/CategoryAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/api/CategoryAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/api/controllers/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/api/controllers/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/api/controllers/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/api/controllers/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/application/category/retrieve/get/GetCategoryByIdUseCaseIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/application/category/retrieve/get/GetCategoryByIdUseCaseIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/models/CategoryApiOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/models/CategoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/models/CreateCategoryApiInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/models/CreateCategoryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/models/UpdateCategoryApiInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/models/UpdateCategoryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/presenters/CategoryApiPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/presenters/CategoryApiPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/ControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/application/category/update/UpdateCategoryUseCaseIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/application/category/update/UpdateCategoryUseCaseIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/api/CategoryAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/api/CategoryAPITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +60,7 @@
       <list>
         <option value="Interface" />
         <option value="Record" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -117,11 +123,12 @@
       <recent name="com.fullcycle.admin.catalogo.infrastructure.category" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fullcycle.admin.catalogo.infrastructure.category.models" />
       <recent name="com.fullcycle.admin.catalogo" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CategoryAPITest.givenAValidCommand_whenCallsUpdateCategory_shouldReturnCategoryId">
-    <configuration name="CategoryAPITest.givenAInvalidId_whenCallsGetCategory_shouldReturnNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CategoryResponseTest.testMarshall">
+    <configuration name="CategoryAPITest.givenAInvalidName_whenCallsUpdateCategory_thenShouldReturnDomainException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -134,7 +141,7 @@
           <list>
             <option value=":infrastructure:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.api.CategoryAPITest.givenAInvalidId_whenCallsGetCategory_shouldReturnNotFound&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.api.CategoryAPITest.givenAInvalidName_whenCallsUpdateCategory_thenShouldReturnDomainException&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -145,7 +152,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CategoryAPITest.givenAValidCommand_whenCallsUpdateCategory_shouldReturnCategoryId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CategoryAPITest.givenAValidId_whenCallsDeleteCategory_shouldBeOK" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -158,7 +165,7 @@
           <list>
             <option value=":infrastructure:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.api.CategoryAPITest.givenAValidCommand_whenCallsUpdateCategory_shouldReturnCategoryId&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.api.CategoryAPITest.givenAValidId_whenCallsDeleteCategory_shouldBeOK&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -169,7 +176,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="GetCategoryByIdUseCaseIT.givenAInvalidId_whenCallsGetCategory_shouldReturnNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CategoryAPITest.givenValidParams_whenCallsListCategories_shouldReturnCategoriesFiltered" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -182,7 +189,7 @@
           <list>
             <option value=":infrastructure:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.application.category.retrieve.get.GetCategoryByIdUseCaseIT.givenAInvalidId_whenCallsGetCategory_shouldReturnNotFound&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.api.CategoryAPITest.givenValidParams_whenCallsListCategories_shouldReturnCategoriesFiltered&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,7 +200,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="GetCategoryByIdUseCaseTest.givenAInvalidId_whenCallsGetCategory_shouldReturnNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CategoryResponseTest.testMarshall" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -204,9 +211,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":application:test" />
+            <option value=":infrastructure:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.application.category.retrieve.get.GetCategoryByIdUseCaseTest.givenAInvalidId_whenCallsGetCategory_shouldReturnNotFound&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.category.models.CategoryResponseTest.testMarshall&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -240,19 +247,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.CategoryAPITest.givenAValidCommand_whenCallsUpdateCategory_shouldReturnCategoryId" />
-      <item itemvalue="Gradle.GetCategoryByIdUseCaseIT.givenAInvalidId_whenCallsGetCategory_shouldReturnNotFound" />
-      <item itemvalue="Gradle.GetCategoryByIdUseCaseTest.givenAInvalidId_whenCallsGetCategory_shouldReturnNotFound" />
+      <item itemvalue="Gradle.CategoryResponseTest.testMarshall" />
+      <item itemvalue="Gradle.CategoryAPITest.givenValidParams_whenCallsListCategories_shouldReturnCategoriesFiltered" />
+      <item itemvalue="Gradle.CategoryAPITest.givenAValidId_whenCallsDeleteCategory_shouldBeOK" />
+      <item itemvalue="Gradle.CategoryAPITest.givenAInvalidName_whenCallsUpdateCategory_thenShouldReturnDomainException" />
       <item itemvalue="Gradle.fc3-admin-do-catalogo [test]" />
-      <item itemvalue="Gradle.CategoryAPITest.givenAInvalidId_whenCallsGetCategory_shouldReturnNotFound" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CategoryAPITest.givenAValidCommand_whenCallsUpdateCategory_shouldReturnCategoryId" />
-        <item itemvalue="Gradle.GetCategoryByIdUseCaseTest.givenAInvalidId_whenCallsGetCategory_shouldReturnNotFound" />
-        <item itemvalue="Gradle.GetCategoryByIdUseCaseIT.givenAInvalidId_whenCallsGetCategory_shouldReturnNotFound" />
+        <item itemvalue="Gradle.CategoryResponseTest.testMarshall" />
         <item itemvalue="Gradle.fc3-admin-do-catalogo [test]" />
-        <item itemvalue="Gradle.CategoryAPITest.givenAInvalidId_whenCallsGetCategory_shouldReturnNotFound" />
+        <item itemvalue="Gradle.CategoryAPITest.givenValidParams_whenCallsListCategories_shouldReturnCategoriesFiltered" />
+        <item itemvalue="Gradle.CategoryAPITest.givenAValidId_whenCallsDeleteCategory_shouldBeOK" />
+        <item itemvalue="Gradle.CategoryAPITest.givenAInvalidName_whenCallsUpdateCategory_thenShouldReturnDomainException" />
       </list>
     </recent_temporary>
   </component>
@@ -361,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715723330711</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="décimo quarto commit">
+      <option name="closed" value="true" />
+      <created>1717872158320</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717872158320</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -377,7 +392,8 @@
     <MESSAGE value="décimo primeiro commit" />
     <MESSAGE value="décimo segundo commit" />
     <MESSAGE value="décimo terceiro commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="décimo terceiro commit" />
+    <MESSAGE value="décimo quarto commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="décimo quarto commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
